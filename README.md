@@ -2,7 +2,7 @@
 
 This is the frontend for a **To-Do App** built with **Next.js 15**, consuming a Laravel API as the backend and using **MySQL** for data storage.
 
-![Todo App Preview](/todo-app-preview.png "Todo App Screenshot")
+![Todo App Preview](./public/todo-app-preview.png "Todo App Screenshot")
 
 ---
 
