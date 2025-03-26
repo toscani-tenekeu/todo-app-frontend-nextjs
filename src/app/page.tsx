@@ -23,8 +23,12 @@ export default function Home() {
     try {
       const response = await axios.get(API_URL);
       setTodos(response.data);
-    } catch (error: any) {
-      console.error("Error fetching todos:", error.response ? error.response.data : error.message);
+    } catch (error: unknown) {
+      if (axios.isAxiosError(error)) {
+        console.error("Error fetching todos:", error.response ? error.response.data : error.message);
+      } else {
+        console.error("Error fetching todos:", error);
+      }
     }
   };  
 
