@@ -121,4 +121,4 @@ This project is **MIT licensed**. Feel free to use and modify it! 🚀
 
 ---
 
-### Made by `Toscani TENEKE` | `Full-Stack Developer`.
+### Made by `Toscani TENEKEU` | `Full-Stack Developer`.
